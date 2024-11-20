@@ -6,8 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo 'hello php world';
-    echo '<h1>hello world</h1>';
+    <?php
+    $name = "achraf";
+    echo $name;
+    echo '<br>';
+    echo 'hello php world';
+    echo "<h1>hello world my name is $name</h1>";
     var_dump((bool) "");
     echo "<br>";
     var_dump((bool) array(1));
