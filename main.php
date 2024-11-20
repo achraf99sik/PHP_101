@@ -11,4 +11,10 @@
     print("hi future me this is another way to write a string");
     echo '<br>';
     echo $_GET['email'];
+    define("name","achraf"); // constant string
+    define("age", 25); // constant number
+    echo __FILE__; // outputs file name and diractery
+    echo __dir__; // outputs file diractery
+    echo __LINE__; // outputs the current line.
+    
     ?>
