@@ -1,4 +1,4 @@
-<?php $name = "achraf"; $age = 25; ?>
+<?php $name = "achraf";$$name = "sikal"; $age = 25; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
