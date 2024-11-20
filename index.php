@@ -1,3 +1,4 @@
+<?php $name = "achraf"; $age = 25; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,6 @@
 </head>
 <body>
     <?php
-    $name = "achraf";
     echo $name;
     echo '<br>';
     echo 'hello php world';
@@ -20,13 +20,7 @@
     echo "<br>";
     var_dump((bool) 0);
     echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-        
     ?>
+    <?php include("main.php") ?>
 </body>
 </html>
