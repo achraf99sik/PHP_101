@@ -22,5 +22,9 @@
     echo "<br>";
     ?>
     <?php include("main.php") ?>
+    <form action="" method="get">
+        <input type="email" name="email" id="">
+        <input type="submit" value="login">
+    </form>
 </body>
 </html>

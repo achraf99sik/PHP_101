@@ -9,4 +9,6 @@
     echo 'hi my name is $name I\'m $age years old now I am learning php';
     echo '<br>';
     print("hi future me this is another way to write a string");
+    echo '<br>';
+    echo $_GET['email'];
     ?>
