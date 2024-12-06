@@ -20,6 +20,17 @@
     echo "<br>";
     var_dump((bool) 0);
     echo "<br>";
+    var_dump(
+        pg_connect("
+            host=localhost
+            port=5432
+            dbname=postgres
+            user=postgres
+            password=root
+        ")
+    );
+    
+    echo "<br>";
     ?>
     <?php include("main.php") ?>
     <form action="" method="get">

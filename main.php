@@ -13,8 +13,12 @@
     echo $_GET['email'];
     define("name","achraf"); // constant string
     define("age", 25); // constant number
+    echo '<br>';
     echo __FILE__; // outputs file name and diractery
+    echo '<br>';
     echo __dir__; // outputs file diractery
+    echo '<br>';
     echo __LINE__; // outputs the current line.
+    // <=> if number bigger returns 1, smaler returns -1, equale returns 0.
     
     ?>
